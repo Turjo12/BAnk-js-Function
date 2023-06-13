@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    justify-content: center; 
+    
+    height: 200px;
+   
+    margin-top: 150px;
+}
+.heading{
+    text-align: center;
+}
+.inputs{
+    width: 98%;
+    background: rgba(0, 255, 213, 0.308);
+    
+   border-radius: 20px;
+    
+}
+
+.red{
+    color: red;
+    font-size: 40px;
+}
+
+input{
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 0px;
+    height: 30px;
+    width: 60%;
+    margin-top: 50px;
+    background: rgb(255, 255, 255);
+}
+
+.inputsss{
+    margin-top: 20px;
+    
+}
+.btn{
+    margin-top: 5px;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 55px;
+    font-weight: 600;
+    background: #000;
+color: white;
+border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .heading{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: -50px;
+    }
+.password{
+    margin-top: 50px;
+}
+    input{
+        margin-top: 2px;
+        margin-left: 15px;
+        width: 80%;
+    }
+
+.inputsss{
+    margin-top: 10px;
+}
+
+
+.btn{
+    margin-top: 5px;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 18px;
+    font-weight: 600;
+    background: #000000;
+color: white;
+border-radius: 10px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* <div class="ml ml-ones">
+<h3 class="mls depo">Your Deposit</h3>
+<input class="mls inputs" type="number" placeholder="  $ Amount you want to Deposit" id="deposit-field"><br>
+<button class="mls btn" id="btn-depos">Deposit</button>
+</div> */
